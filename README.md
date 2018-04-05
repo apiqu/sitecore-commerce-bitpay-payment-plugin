@@ -107,12 +107,6 @@ You can simply switch between sandbox testing account and production mode by che
 * [Bitcoin Sharp](david-garcia-garcia/bitcoinsharp)
 * [Bouncy Castle](https://www.bouncycastle.org/csharp/index.html)
 
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
