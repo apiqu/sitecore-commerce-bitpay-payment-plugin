@@ -1,4 +1,7 @@
 # BitPay Payment Plugin for Sitecore Commerce
+
+[Apiqu Team](http://www.apiqu.com/) is proud to present BitPay plugin and hope it will make your customers' payment experience more secure, faster and anonymous anywhere on earth.
+
 Accept Bitcoin and Bitcoin Cash for your business using Sitecore Commerce Solution
 
 Receive settlement for Bitcoin and Bitcoin Cash directly to your bank account in your own currency, with zero price volatility or risk.
@@ -8,7 +11,6 @@ Receive settlement for Bitcoin and Bitcoin Cash directly to your bank account in
 ![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_payment.png?raw=true)
 
 </div>
-
 
 ## Getting Started
 
