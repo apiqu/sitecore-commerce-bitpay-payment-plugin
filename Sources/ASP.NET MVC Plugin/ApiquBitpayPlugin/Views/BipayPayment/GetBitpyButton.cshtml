@@ -1,0 +1,82 @@
+﻿@using System.Web.Mvc.Html
+@using ApiquBitpayPlugin.Models
+@model BitpayViewmodel
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.js"> </script>
+@*<script type="text/javascript">
+    function createBitpayInvoice() {
+        var model = @Html.Raw(Json.Encode(Model));
+        var email = $("#bitpayEmail").val();	  
+        model.Email = email;    
+        var data = {
+            model: model
+        };	  
+        $.ajax({
+            url: "api/Sitecore/BipayPayment/CreateInvoice",
+            type: "POST",
+            data: JSON.stringify(data),
+            context: this,
+            success: function (data) {
+                window.location.replace(data);
+            },
+            error: function (data) {
+                console.log("error", data);
+            }
+        });
+    }
+</script>*@
+<script type="text/javascript">
+    function createBitpayInvoice() {
+        var infoForm = $("#infoForm");
+        $.ajax({
+            url: "api/Sitecore/BipayPayment/CreateInvoice",
+            type: "POST",
+            data: infoForm.serialize(),
+            context: this,
+            success: function (data) {
+                window.location.replace(data);
+            },
+            error: function (data) {
+                console.log("error", data);
+            }
+        });
+    }
+</script>
+@if (Model.IsBitpayEnable)
+{
+    <fieldset id="infoForm">
+        <div class="col-md-12" id="billingBitpayContainer">
+            <div class="accordion-container">
+                <a href="#" class="accordion-toggle">
+                    <span class="toggle-icon"><span class='glyphicon glyphicon-plus-sign'></span></span>Pay with Bitpay
+                </a>
+                <div class="accordion-content">
+                    <div class="col-md-12">
+                        <h4>Bitpay</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="bitpayEmail">Email</label>
+                                @Html.TextBoxFor(x => x.Email, new { type = "email", id = "bitpayEmail", @class = "form-control", required = "required" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="image" src="https://bitpay.com/img/button-medium.png" border="0" name="submit" id="bitpayButton" onclick="createBitpayInvoice();" alt="BitPay, the easy way to pay with bitcoins.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @Html.HiddenFor(x => x.ShopName)
+        @Html.HiddenFor(x => x.IsBitpayEnable)
+    </fieldset>
+}
+
+
+

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Plugin.Sample.Payments.Braintree": "1.2.159",
+    "Sitecore.Commerce.Plugin.Payments": "1.2.159"
+  },
+
+  "frameworks": {
+    "net461": {
+
+    }
+  }
+}

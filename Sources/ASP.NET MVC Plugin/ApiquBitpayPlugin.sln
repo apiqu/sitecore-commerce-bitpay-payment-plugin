@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiquBitpayPlugin", "ApiquBitpayPlugin\ApiquBitpayPlugin.csproj", "{759F4ABE-4972-43A5-9CFF-8DFE5FC44E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiquBitpayPlugin.Tests", "ApiquBitpayPlugin.Tests\ApiquBitpayPlugin.Tests.csproj", "{782A5A59-69FE-4CFD-B13B-BF6EBD4010AB}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Bitpay.Master", "Bitpay.Master\Bitpay.Master.scproj", "{12C5851E-69FF-44BB-B319-4BD0298DFCD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{759F4ABE-4972-43A5-9CFF-8DFE5FC44E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759F4ABE-4972-43A5-9CFF-8DFE5FC44E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759F4ABE-4972-43A5-9CFF-8DFE5FC44E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759F4ABE-4972-43A5-9CFF-8DFE5FC44E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782A5A59-69FE-4CFD-B13B-BF6EBD4010AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782A5A59-69FE-4CFD-B13B-BF6EBD4010AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782A5A59-69FE-4CFD-B13B-BF6EBD4010AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782A5A59-69FE-4CFD-B13B-BF6EBD4010AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C5851E-69FF-44BB-B319-4BD0298DFCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C5851E-69FF-44BB-B319-4BD0298DFCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C5851E-69FF-44BB-B319-4BD0298DFCD5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{12C5851E-69FF-44BB-B319-4BD0298DFCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C5851E-69FF-44BB-B319-4BD0298DFCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C5851E-69FF-44BB-B319-4BD0298DFCD5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
