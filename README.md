@@ -95,7 +95,7 @@ Receive settlement for Bitcoin and Bitcoin Cash directly to your bank account in
 
 <div style="text-align:center" markdown="1">
 
-![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_dashboard1.png?raw=true)
+![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_dashboard1.jpg?raw=true)
 
 </div>
 
@@ -103,7 +103,7 @@ Receive settlement for Bitcoin and Bitcoin Cash directly to your bank account in
 
 <div style="text-align:center" markdown="1">
 
-![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_dashboard2.png?raw=true)
+![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_dashboard2.jpg?raw=true)
 
 </div>
 
