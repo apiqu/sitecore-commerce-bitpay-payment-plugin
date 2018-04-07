@@ -14,10 +14,14 @@ Receive settlement for Bitcoin and Bitcoin Cash directly to your bank account in
 
 ## Getting Started
 
+---
+
 ### Merchant Account Setup
 
 * [Sign up for a BitPay testnet account](https://test.bitpay.com/dashboard/signup) - Make sure to verify your email and fill in your business information & settlement information. See "Settlement Testing" below for what information to enter.
 * Accounts on test server will be auto-approved to process up to $1,000 per day and $10,000 annually in test transactions.
+
+---
 
 ### Getting a Testnet Wallet
 
@@ -46,6 +50,8 @@ Receive settlement for Bitcoin and Bitcoin Cash directly to your bank account in
 
 * Click on "Create new wallet" and verify that "Testnet" is displayed below the wallet name.
 
+---
+
 ### Getting Testnet Coins
 
 * Open your BitPay wallet and click on the "Receive" tab. Scroll through your wallets to find your testnet wallet. You'll see an address at which you can receive funds. Copy this address to your clipboard.
@@ -54,6 +60,8 @@ Receive settlement for Bitcoin and Bitcoin Cash directly to your bank account in
 
     * [testnet.coinfaucet.eu](https://testnet.coinfaucet.eu/)
     * If this option is unavailable, please contact your BitPay Sales Engineer.
+
+---
 
 ### Payment for Bitpay Invoice
 
@@ -79,22 +87,62 @@ Receive settlement for Bitcoin and Bitcoin Cash directly to your bank account in
 
 </div>
 
+---
+
+### Create a Pairing Code
+
+* From Bitpay Dashboard choose "Payment Tools" in left panel and click "Point of Sale App"
+
+<div style="text-align:center" markdown="1">
+
+![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_dashboard1.png?raw=true)
+
+</div>
+
+* Click "Add New Pairing Code"
+
+<div style="text-align:center" markdown="1">
+
+![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_dashboard2.png?raw=true)
+
+</div>
+
+---
+
 ### Plugin Configurations
 
-* description goes here
 <div style="text-align:center" markdown="1">
 
 ![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_plugin1.png?raw=true)
 
 </div>
 
-* description goes here
+* **Name**: Payment option name
+* **TypeID**: Unique number for payment type
 
 <div style="text-align:center" markdown="1">
 
 ![Bitpay](https://github.com/apiqu/sitecore-commerce-bitpay-payment-plugin/blob/master/Assets/bitpay_plugin2.png?raw=true)
 
 </div>
+
+* **Client Name**: Connection name to Bitpay server
+* **Server URL**: Url of Bitpay server (https://test.bitpay.com for sandbox and https://bitpay.com for production)
+* **Redirect Url**: URL to redirect back to your website after a successful purchase. Be sure to include "http://" or "https://" in the url.
+* **Pairing code**: Pairing code that you create from Bitpay Dashboard
+
+---
+
+### Switch between Bitpay Sandbox and Production 
+
+* **Sandbox**  
+  * Server Url: https://test.bitpay.com
+  * Pairing Code: paring code that created from https://test.bitpay.com
+* **Production**
+	* Server Url: https://bitpay.com
+    * Pairing Code: paring code that created from https://bitpay.com 
+
+---
 
 ## References
 
